@@ -8,8 +8,8 @@ end
 
 print_game_info("Our Squishy Hero", "Platformer", "2024")
 
-def print_game_info(name, genre, year)
+def print_game_info(name, genre="Unknown", year)
   puts "#{name} (#{year}): #{genre}"
 end
 
-print_game_info("Our Squishy Hero", "Platformer", "2024")
+print_game_info("Our Squishy Hero", "2024")
