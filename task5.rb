@@ -10,5 +10,5 @@ games = [
   {name: "Our Squishy Hero", genre: "Platformer", players: 1000 }
 ]
 
-title, players = most_popular(games)
-puts "#{title[:name]}: #{players} players"
+game = most_popular(games)
+puts "#{game[:name]}: #{game[:players]} players"
