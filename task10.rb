@@ -14,4 +14,8 @@ mult2 = create_multiplier(2)
 
 puts mult2.call(3)
 
+# puts mult2.call Error!
+
+# puts mult2.call(1, 2) Error!
+
 print_multiplication_table(mult2)
