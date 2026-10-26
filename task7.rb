@@ -10,4 +10,4 @@ games = {
   "Our Squishy Hero" => { genre: "Platformer", players: 1000 }
 }
 
-puts select_cool_games(games) { |name, details| name == "Our Squishy Hero" }
+puts select_cool_games(games) { |name, _| name == "Our Squishy Hero" }
